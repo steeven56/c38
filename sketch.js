@@ -146,7 +146,7 @@ function spawnObstacles() {
 
     // var obstacle = createSprite(camera.Position.X+400,330,40,40);
     // var obstacle = createSprite(Camera.Position.x+400,330,40,40);
-    // var obstacle = createSprite(camera.position.x+400,330,40,40);
+     var obstacle = createSprite(camera.position.x+400,330,40,40);
     // var obstacle = createSprite(camera.position.x.400,330,40,40);
 
     obstacle.setCollider("rectangle",0,0,200,200)
